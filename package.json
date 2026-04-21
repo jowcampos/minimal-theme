@@ -1,9 +1,9 @@
 {
-  "name": "my-vscode-theme",
-  "displayName": "My VSCode Theme",
-  "description": "A custom theme for Visual Studio Code.",
+  "name": "minimal-theme",
+  "displayName": "Minimal Theme",
+  "description": "A minimalistic and clean theme for Visual Studio Code.",
   "version": "1.0.0",
-  "publisher": "your-name",
+  "publisher": "jowcampos",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -13,15 +13,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "My Theme",
-        "uiTheme": "vs",
-        "path": "./themes/my-theme.json"
+        "label": "Minimal Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal-theme-color-theme.json"
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "echo 'No compile step required.'"
+    "vscode:prepublish": "echo 'Theme is ready for publishing'"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jowcampos/minimal-theme"
+  },
+  "keywords": [
+    "theme",
+    "minimal",
+    "dark",
+    "vscode"
+  ]
 }
